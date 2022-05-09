@@ -20,6 +20,6 @@ class Home extends CI_Controller {
 	 */
 	public function index()
 	{
-		echo 'Testing Unit';
+		$this->load->view("home.php");
 	}
 }

@@ -21,7 +21,7 @@ class Home extends CI_Controller {
 	public function index()
 	{
     $data['judul'] = "Home";
-    $this->load->view("headerfooter/header.php");
+    $this->load->view("headerfooter/header.php", $data);
 		$this->load->view("home.php");
     $this->load->view("headerfooter/footer.php");
 	}

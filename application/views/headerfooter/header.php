@@ -24,7 +24,7 @@
         <div class="navbar-nav">
           <a class="nav-item nav-link active" href="<?= site_url('home') ?>">Home <span class="sr-only">(current)</span></a>
           <a class="nav-item nav-link" href="<?= site_url('users')?>">User</a>
-          <a class="nav-item nav-link" href="#">About</a>
+          <a class="nav-item nav-link" href="<?= site_url('info')?>">About</a>
         </div>
       </div>
     </div>
